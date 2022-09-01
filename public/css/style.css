@@ -1,0 +1,124 @@
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guestbook{
+    max-width: 800px;
+    margin: 50px auto;
+    margin-top: 60px;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+.guestbook .title{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: #5543ca;
+    background: linear-gradient(to right, #87CEFA 0%, #778899 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-form .form-field{
+    position: relative;
+    margin: 32px 0;
+}
+
+.contact-form .input-text{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #20B2AA;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.contact-form .textarea-text{
+    display: block;
+    width: 100%;
+    height: 80px;
+    border-width: 0 0 2px 0;
+    border-color: #20B2AA;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+    transform: translateY(-24px);
+}
+.contact-form .input-text:focus{
+    outline:none;
+}
+
+.contact-form .label{
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: blueviolet;
+    cursor: text;
+    text-transform: capitalize;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.contact-form .submit-btn{
+    display: inline-block;
+    background-image: linear-gradient(125deg, #008080, #0d0d0d);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+.contact-form .back-btn{
+    display: inline-block;
+    background-image: linear-gradient(125deg, #008080, #0d0d0d);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-registration input{
+    border-radius: 0;
+    margin-bottom: -1px;
+}
